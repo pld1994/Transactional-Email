@@ -1,0 +1,153 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+#ups-icon {
+    color: #FFB500;
+    background-color: #351C15;
+    font-size: 15em;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#date {
+    color: gray;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#light-break {
+    width: 100%;
+    color: lightgray;
+}
+
+.item p {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+  }
+
+#order-list{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+} 
+
+  .order {
+    text-align: left;
+    width: 75%;
+  }
+
+.checkout {
+    text-align: left;
+    width: 75%;
+    color: gray;
+}
+ 
+.checkout-price {
+    color: gray;
+}
+
+#total-break {
+    border: solid 2px black;
+}
+
+.total {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    width: 75%;
+}
+
+.total-price {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.details p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.bottom-text {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#fake-anchor {
+    color: blue;
+    text-decoration: underline;
+}
+
+#coupon {
+    background-color: #FFB500;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+}
+
+#coupon-code {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+#url {
+    border-style: dashed;
+    width: 50%;
+    margin: auto;
+    padding: 0%;
+}
+
+#social {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+}
+
+.footer-text {
+    font-family: Arial, sans-serif;
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 375px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    #ups-icon {
+        font-size: 7rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+}
